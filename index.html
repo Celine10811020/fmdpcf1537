@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="zh-TW">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<link href="style.css" rel="stylesheet" type="text/css">
+
+		<title>編碼</title>
+	</head>
+
+	<body>
+		<div class="title">
+	    <h1> 編碼 </h1>
+	  </div>
+
+		<div class="wrapper">
+			<div class="inputDiv">
+				<input class="input" id="InputString" NAME="inStr" placeholder="輸入字串"></input>
+				<input class="input" id="Seed" NAME="seed" placeholder="編碼參數"></input>
+			</div>
+			<div class="buttonDiv">
+				<button class="button" id="Encode"> 編碼 </button>
+	    </div>
+			<div class="result">
+				<a class="output" id="OutputString"> </a>
+			</div>
+			<button class="button" id="Copy"> 複製 </button>
+		</div>
+	</body>
+
+	<script src="main.js"></script>
+	<script src="declare.js"></script>
+</html>
